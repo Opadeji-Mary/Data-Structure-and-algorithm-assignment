@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Section B 1</p>
+    <p>Inside console</p>
+    <a href="SectionA.html">
+        <button>Previous</button>
+    </a>
+    <a href="sectionB2.html">
+        <button>Next</button>
+    </a>
+    <script>
+        for (let number = 1; number <= 100; number++) {
+          if (number % 3 === 0 && number % 5 === 0) {
+              console.log("PDC NID");
+          } else if (number % 3 === 0) {
+              console.log("PDC");
+          } else if (number % 5 === 0) {
+              console.log("NID");
+          } else {
+              console.log("neither PDC nor NID");
+          }
+    }
+    </script>
+</body>
+</html>
